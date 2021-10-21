@@ -109,7 +109,9 @@ color:#050E44;
 #Footer {
 	background: #fff url(../images/bg/Footer-bg.png) no-repeat top center;
 	padding: 30px 22px 25px 22px;
-	font-size: 11px
+	font-size: 13px;
+	font-family: 'Oswald', sans-serif;
+	
 }
 
 #Footer ul {
@@ -497,14 +499,7 @@ div#placeholderdiv {
     font-family: 'Noto Serif', serif;
 	text-align: center;
 }
-#navigation{
-      display:inline-block;
-	  font-family: 'Pompiere', cursive;
-      font-size:1.3em;
-      text-decoration:none;
-      text-transform:uppercase;
-      background-color:#151515;
-      }
+
 #navigation ul li:hover,
 #navigation ul li.hover
 {
