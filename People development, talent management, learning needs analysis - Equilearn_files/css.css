@@ -497,7 +497,14 @@ div#placeholderdiv {
     font-family: 'Noto Serif', serif;
 	text-align: center;
 }
-
+#navigation{
+      display:inline-block;
+	  font-family: 'Pompiere', cursive;
+      font-size:1.3em;
+      text-decoration:none;
+      text-transform:uppercase;
+      background-color:#151515;
+      }
 #navigation ul li:hover,
 #navigation ul li.hover
 {
@@ -967,7 +974,6 @@ h5 {
 #Footer ul li {
 	float: left;
 	width: 100%;
-	font-size:1em;
 	text-align: center;
 	margin: 0px 0 5px 0px; 
 	padding: 0px 0 0px 0px;
