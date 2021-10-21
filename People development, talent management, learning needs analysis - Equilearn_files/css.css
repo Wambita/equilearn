@@ -18,13 +18,14 @@ body{
 font-family: 'Poppins', sans-serif;
 font-size: 1.2em;
 color:#050E44;
+padding: 5px;
 }
 #wrapper {
 	position: relative;
 	margin: 0px auto;
 	padding: 0px 0px;
 	max-width: 1000px;
-	background:#E8680;
+	background:#E8680lo;
 	/*background: url(../images/bg/Main-bg.png) repeat-y top center*/
 }
 
@@ -41,6 +42,55 @@ color:#050E44;
 	height: 82px;
 	margin: 0px;
 	padding: 0px
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 /*#Strap1 {
@@ -162,8 +212,8 @@ color:#050E44;
 /* Styles */
 
 h1 {
-	font-size: 1.6em;
-	color: #0b2f5d;
+	font-size: 1.4em;
+	color: #ffffff;
 	border-bottom: 1px solid #5c673b;
 	line-height: 1.2em;
 	margin: 0px 0px 10px 0px;
@@ -250,6 +300,7 @@ div.EventsContent em {
 
 .More {
 	text-align: right;
+	
 }
 
 a:link, a:visited {
@@ -655,12 +706,12 @@ div#placeholderdiv {
 	height: 15px;
 }
 
-body#About #RightContentNav li#AboutUs, body#About #RightContentNav li#AboutUs li, body#Services #RightContentNav li#Services, body#Services #RightContentNav li#Services li, body#Resources #RightContentNav li#Services, body#Resources #RightContentNav li#Services li, body#Clients #RightContentNav li#Clients, body#Clients #RightContentNav li#Clients li, body#Briefings #RightContentNav li#Briefings, body#Briefings #RightContentNav li#Briefings li, body#News #RightContentNav li#News, body#News #RightContentNav li#News li, body#Partners #RightContentNav li#Partners, body#Partners #RightContentNav li#Partners li, body#Contact #RightContentNav li#Contact, body#Contact #RightContentNav li#Contact li, body#SiteMap #RightContentNav li#SiteMap, body#SiteMap #RightContentNav li#SiteMap li {
+body#About #RightContentNav li#AboutUs, body#About #RightContentNav li#AboutUs li, body#Services #RightContentNav #Footer li#Services, body#Services #RightContentNav li#Services li, body#Resources #RightContentNav li#Services, body#Resources #RightContentNav li#Services li, body#Clients #RightContentNav li#Clients, body#Clients #RightContentNav li#Clients li, body#Briefings #RightContentNav li#Briefings, body#Briefings #RightContentNav li#Briefings li, body#News #RightContentNav li#News, body#News #RightContentNav li#News li, body#Partners #RightContentNav li#Partners, body#Partners #RightContentNav li#Partners li, body#Contact #RightContentNav li#Contact, body#Contact #RightContentNav li#Contact li, body#SiteMap #RightContentNav li#SiteMap, body#SiteMap #RightContentNav li#SiteMap li {
 	display: block;
 }
 
 .AboutServices #RightContentNav a.AboutServices, .Leadership #RightContentNav a.Leadership, .PersonalEffectiveness #RightContentNav a.PersonalEffectiveness , .TeamEffectiveness #RightContentNav a.TeamEffectiveness, .LearningResources #RightContentNav a.LearningResources, .ClientsClients #RightContentNav a.ClientsClients, .WhatOurClientsSay #RightContentNav a.WhatOurClientsSay, .Briefings #RightContentNav a.Briefings, .VisionandValues #RightContentNav a.VisionandValues, .WhoWeAre #RightContentNav a.WhoWeAre, .News #RightContentNav a.News, .NewsEvents #RightContentNav a.NewsEvents, .OnlineBooking #RightContentNav a.OnlineBooking {
-	color: #ffffff;
+	color: #000000;
 	display: block;
 	padding: 0px 10px 10px 20px;
 	height: 15px;
@@ -831,7 +882,7 @@ body {
 }
 
 #Logo {
-	width: 200px;
+	width: 150px;
 }
 
 #TopHeader {
@@ -951,7 +1002,7 @@ h2 {
 }
 
 h3 {
-	font-size: medium;
+	font-size: 1.5em;
 }
 
 .Events h3 {
@@ -978,7 +1029,7 @@ h5 {
 
 #Logo {
 	width: 150px;
-	padding-top: 5px;
+	padding-top: 0px;
 }
 
 table.logos td {
