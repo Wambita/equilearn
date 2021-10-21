@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	color: #444;
+	text-align: justify;
+	font: 76% Arial, Helvetica, sans-serif;
+	line-height: 1.2em
+}
+
+#wrapper {
+	
+}
+
+#TopHeader {
+	
+}
+
+#navigation, #RightContentNav {
+	display: none;
+}
+
+#Logo {
+	
+}
+
+#Strap1 {
+	
+}
+
+#Strap2 {
+	
+}
+
+#test2-content, #test3-content, #test4-content, #test5-content, #test6-content {
+	display: block !important;
+	visibility: visible;
+	height: auto !important;
+}
+
+#MainContent {
+	padding: 1px 12px 0px 12px;
+}
+
+.MainContent {
+	background: url(../images/bg/Content-bg.png) no-repeat bottom right;
+}
+
+#RightContent {
+	float: left;
+	width: 270px;
+	text-align: left
+}
+
+#LeftContent {
+	
+}
+
+#HomeLeftContent {
+	
+}
+
+.Content {
+	padding: 10px 0px;
+}
+
+.Services {
+	background: url(../images/bg/Services.jpg) no-repeat top left;
+	height: 157px;
+	margin-bottom: 10px
+}
+
+.Clients {
+	background: url(../images/bg/Clients.jpg) no-repeat top left;
+	height: 157px;
+}
+
+.Events {
+	float: left;
+	width: 47%;
+	text-align: left
+}
+
+#Footer {
+	background: #fff url(../images/bg/Footer-bg.png) no-repeat top center;
+	padding: 30px 22px 25px 22px;
+	font-size: 11px
+}
+
+#Footer ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#Footer ul li {
+	float: left;
+	margin: 0px 10px 0px 0px; 
+	padding: 0px 10px 0px 0px;
+	border-right: 1px solid #444;
+	list-style: none
+}
+
+#Footer ul li.last {
+	border-right: 0px;
+}
+
+.SiteMap {
+	float: left;
+	width: 48%;
+}
+
+.SiteMap ul {
+	margin: 10px;
+	padding: 10px;
+	list-style: none
+}
+
+.SiteMap ul li {
+	margin: 0px;
+	padding: 0px;
+}
+
+.SiteMap ul ul {
+	margin: 0px 10px 5px 10px;
+	padding: 0px 10px 5px 10px;
+	list-style: none;
+}
+
+.SiteMap ul ul li {
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.2em
+}
+
+/* Styles */
+
+h1 {
+	font-size: 1.6em;
+	color: #0b2f5d;
+	border-bottom: 1px solid #5c673b;
+	line-height: 1.2em;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 0px 0px 0px
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #0b2f5d;
+	border-bottom: 1px solid #5c673b;
+	line-height: 1em;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px
+}
+
+h3 {
+	font-size: 1.4em;
+	color: #5c673b;
+	line-height: 1.2em;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px
+}
+
+.Events h3 {
+	float: left;
+	width: 32%;
+	font-size: 1.3em
+}
+
+#RightContent h3 {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	margin: 0px 0px 30px 0px;
+	padding: 17px 0px 0px 0px
+}
+
+h4 {
+	font-size: 1.2em;
+	color: #5c673b;
+	line-height: 1.2em;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px
+}
+
+h5 {
+	font-size: 1.1em;
+	color: #5c673b;
+	line-height: 1.2em;
+	border-bottom: 1px solid #a49841;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px
+}
+
+#RightContent blockquote {
+	margin: 0px;
+	padding: 0px;
+}
+
+#RightContent blockquote .quotes {
+	font-size: 32px;
+	color: #a49841;
+}
+
+.Events p, #RightContent p {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+div.EventsContent {
+	float: left;
+	width: 67%;
+	font-size: 1.15em;
+}
+
+div.EventsContent em {
+	font-weight: normal;
+	font-size: 0.9em
+}
+
+.ReadMore {
+	text-align: right;
+	font-size: 0.85em
+}
+
+.More {
+	text-align: right;
+}
+
+a:link, a:visited {
+	color: #a49841;
+	text-decoration: underline;
+	font-weight: bold
+}
+
+a:hover {
+	text-decoration: none;
+	color: #0b2f5d;
+	font-weight: bold
+}
+
+.clear {
+	clear: both;
+}
+
+.InnerContent {
+	padding: 10px;
+}
+
+.InputField {
+	border: 1px solid #5c673b;
+	background: #f7f8fa;
+	padding: 2px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+input.InputField {
+	width: 250px;
+}
+
+textarea.InputField {
+	width: 250px;
+}
+
+.Button {
+	background: #5c673b;
+	color: #fff;
+	padding: 2px 4px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #a49841;
+	cursor: pointer
+}
+
+.required {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 1.2em
+}
+
+/* ACCORDION FILE */
+
+#basic-accordian {
+	padding: 0px 0px 10px 0px;
+}
+
+.accordion_headings {
+	padding: 7px 0px 0px 10px;
+	background: #f7f8fa;
+	height: 22px;
+	color: #5c673b;
+	font-weight: bold;
+	cursor: pointer;
+	margin-bottom: 2px;
+	border: 1px solid #a49841;
+	font-size: 1.15em
+}
+
+.accordion_headings:hover {
+	background: #5c673b;
+	border: 1px solid #a49841;
+	height: 22px;
+	margin-bottom: 2px;
+	color: #fff
+}
+
+.accordion_child {
+	padding: 0px 10px 0px 10px;
+	border: 1px solid #a49841;
+	margin-bottom: 2px;
+	background: #f7f8fa;
+	color: #444
+}
+
+.header_highlight {
+	padding: 7px 0px 0px 10px;
+	background: #5c673b;
+	color: #fff;
+	height: 22px;
+	margin-bottom: 2px;
+	border: 1px solid #a49841;
+}
+
+.ValuesBlock {
+	margin-bottom: 0px;
+}
+
+/* Quotes */
+
+.quote1 {
+	font-size: 1.5em;
+	float: left;
+	width: 40%;
+	padding: 1%;
+	text-align: left;
+	line-height: 1em
+}
+
+.quote2 {
+	font-size: 1.3em;
+	float: right;
+	width: 40%;
+	padding: 1%;
+	text-align: right
+}
+
+.quote3 {
+	font-size: 1.1em;
+	float: left;
+	width: 45%;
+	padding: 1%;
+	text-align: center
+}
+
+table.logos {
+	background: #fff;
+}
+
+div#placeholderdiv {
+	padding: 0px 10px 0px 10px;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: left
+}
+
+#SideQuotes {
+	background: url(../images/quotes/quote-middle.png) repeat-y top center;
+	width: 180px;
+	margin-top: 0px
+}
+
+.QuoteHeader {
+	background: url(../images/quotes/quote-top.png) no-repeat top center;
+	height: 15px;
+}
+
+.QuoteFooter {
+	background: url(../images/quotes/quote-bottom.png) no-repeat top center;
+	height: 30px;
+}
